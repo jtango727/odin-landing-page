@@ -87,3 +87,43 @@ img {
     font-family: 'Roboto';
     text-align: center;    
 }
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 80px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #1F2937;
+    
+        
+}
+
+.quote-body {
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+.bar-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+}
+
+.bar-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 5px 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    max-height: 40px;
+    align-self: center;
+    
+}
+
