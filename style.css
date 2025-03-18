@@ -4,7 +4,8 @@
 .header,
 .header-links,
 a,
-.container1 {
+.container1,
+footer {
     background-color:#1F2937;
     color: white;
     display: flex;
@@ -110,10 +111,13 @@ img {
     background-color: #3882F6;
     color: #E5E7EB;
     justify-content: space-evenly;
+    font-family: 'Roboto';
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bar-button {
@@ -121,9 +125,24 @@ img {
     background-color: #3882F6;
     padding: 5px 40px;
     border-radius: 4px;
+    font-family: 'Roboto';
     font-size: 18px;
     max-height: 40px;
     align-self: center;
-    
 }
 
+.bar-text {
+    white-space-collapse:collapse;
+    align-content: center;
+}
+
+.call {
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+footer {
+    justify-content: center;
+    font-style: 'Roboto';
+    font-weight: lighter;
+}
